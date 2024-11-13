@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\xengy\\Downloads\\Telegram Desktop\\CP\\CP\\src\\App\\App.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\xengy\\Downloads\\Telegram Desktop\\CP\\CP\\src\\App\\App.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\xengy\\Downloads\\Telegram Desktop\\CP\\CP\\src\\App\\App.fsproj",
+        "projectName": "App",
+        "projectPath": "C:\\Users\\xengy\\Downloads\\Telegram Desktop\\CP\\CP\\src\\App\\App.fsproj",
+        "packagesPath": "C:\\Users\\xengy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xengy\\Downloads\\Telegram Desktop\\CP\\CP\\src\\App\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xengy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net80": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net80": {
+          "dependencies": {
+            "FParsec": {
+              "target": "Package",
+              "version": "[1.1.1, )",
+              "generatePathProperty": true
+            },
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.2, )",
+              "generatePathProperty": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.400\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
